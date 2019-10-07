@@ -6,7 +6,7 @@ import redis.clients.jedis.Jedis;
 public class SimpleJedisTest {
 
     @Test
-    public void shouldFail() {
+    public void canAddKeyValue() {
         //
         // localhost:6379
         //
