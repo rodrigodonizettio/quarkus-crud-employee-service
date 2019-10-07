@@ -1,5 +1,6 @@
-package br.com.padtec.nms.backend.course;
+package br.com.padtec.nms.backend.course.endpoint;
 
+import br.com.padtec.nms.backend.course.endpoint.EmployeeEndpointTest;
 import io.quarkus.test.junit.SubstrateTest;
 
 @SubstrateTest

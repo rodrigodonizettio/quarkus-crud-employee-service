@@ -1,4 +1,4 @@
-package br.com.padtec.nms.backend.course;
+package br.com.padtec.nms.backend.course.endpoint;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
