@@ -1,11 +1,11 @@
-package br.com.padtec.nms.backend.course.service;
+package br.com.padtec.nms.backend.course.service.api;
 
 import br.com.padtec.nms.backend.course.model.Department;
 import br.com.padtec.nms.backend.course.model.Employee;
 
 import java.util.Map;
 
-public interface EmployeeService {
+public interface EmployeeServiceApi {
 
   Map<Long, Employee> getAll();
 

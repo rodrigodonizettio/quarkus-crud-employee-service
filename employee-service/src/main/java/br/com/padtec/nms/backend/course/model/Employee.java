@@ -5,9 +5,10 @@ import org.graalvm.nativeimage.c.struct.UniqueLocationIdentity;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Employee {
+public class Employee implements Serializable {
   private Long id;
   @NotBlank
   private Long registration;

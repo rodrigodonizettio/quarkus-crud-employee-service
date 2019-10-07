@@ -1,7 +1,8 @@
-package br.com.padtec.nms.backend.course.service;
+package br.com.padtec.nms.backend.course.service.impl;
 
 import br.com.padtec.nms.backend.course.model.Department;
 import br.com.padtec.nms.backend.course.model.Employee;
+import br.com.padtec.nms.backend.course.service.api.EmployeeServiceApi;
 
 import javax.enterprise.context.ApplicationScoped;
 import java.util.HashMap;
@@ -9,7 +10,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @ApplicationScoped
-public class EmployeeService_Impl implements EmployeeService {
+public class EmployeeServiceImpl implements EmployeeServiceApi {
 
   public static Department department = new Department(1L, 27L, "NMS");
   public static Employee employee1 = new Employee(1L, 1312L, "Rodrigo1", department, "a@b.com", "skype1", false);

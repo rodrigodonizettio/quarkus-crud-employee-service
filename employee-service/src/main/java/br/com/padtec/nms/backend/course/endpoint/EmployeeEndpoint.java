@@ -1,13 +1,11 @@
 package br.com.padtec.nms.backend.course.endpoint;
 
-import br.com.padtec.nms.backend.course.model.Department;
 import br.com.padtec.nms.backend.course.model.Employee;
-import br.com.padtec.nms.backend.course.service.EmployeeService;
+import br.com.padtec.nms.backend.course.service.api.EmployeeServiceApi;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import java.io.Serializable;
 import java.util.Map;
 
 /***
@@ -20,7 +18,7 @@ import java.util.Map;
 public class EmployeeEndpoint {
 
   @Inject
-  protected EmployeeService employeeService;
+  protected EmployeeServiceApi employeeService;
 
   @GET
   public Map<Long, Employee> getAll() {

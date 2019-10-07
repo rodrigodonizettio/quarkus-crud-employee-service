@@ -1,8 +1,9 @@
 package br.com.padtec.nms.backend.course.model;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Department {
+public class Department implements Serializable {
   private Long id;
   private Long code;
   private String name;
